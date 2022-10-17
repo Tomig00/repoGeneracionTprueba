@@ -61,7 +61,7 @@ function compararPalabras(e) {
 let interval = setInterval(actualizarTiempo, 1000);
 
 function actualizarTiempo(){
-    time--; 
+    time--;
     timeSpan.innerText = time + "s";
     if (time === 0) {
         clearInterval(interval);
@@ -77,7 +77,7 @@ function updateScore() {
 
 
 function gameOver() {
-    main.innerHTML = `<h1></h1>`;
+    main.style.display = "none";
     endgamecontainer.innerHTML = `
     <h1>GAME OVER</h1>
     <p id="puntaje">Puntaje final ${score}</p>
