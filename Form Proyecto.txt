@@ -1,0 +1,55 @@
+INFINITY BANK (FORM) "nombre a definir"
+PALLADIUM BANK
+
+
+https://www.revistac2.com/c2/wp-content/uploads/2019/06/paladio-300x226.jpg?x33099
+
+
+2. La idea de nuestro proyecto es, realizar la pagina web de un banco. La cual tendrá un sistema de registro y logeo con seguridad (token), sistema de transacciones entre usuarios, un mercado interno con puntos, tarjetas virtuales, planes, y mucho mas. 
+
+
+3. Nos surgió esta idea porque buscábamos algo diferente, algo que nos plantee un desafío. 
+
+
+4. Tenemos un cliente que esta llevando a cabo un banco nuevo e innovador, y necesita tener una pagina web funcional. 
+
+5. Desarrollar un sitio o aplicación web, que permita el manejo de cuentas bancarias protegidas, con el fin de realizar transacciones con total privacidad. La pagina va a ser user friendly, fácil de usar, intuitiva. Mejorando también así la experiencia del usuario, focalizando en que gente mayor se pueda adaptar fácil a ella. 
+
+6. Sistema de registro y logeo, marketPlace y manejo de dinero.
+
+
+7.  1er Entrega: Sera el esquema de la pagina, utilizando HTML y algo de CSS.
+2da Entrega: Update de la pagina estéticamente, mas pagina de registro y logeo. 
+3er Entrega: Manejo de dinero en las cuentas y marketPlace.
+
+
+
+8. Nuestro sponsor será Infinity Bank.
+
+
+9.  Personas que quieran asegurar su dinero.
+
+
+10. Las ventajas que brinda nuestro proyecto van a ser que es sencillo de usar para todos los usuarios, va a tener gran cantidad de features, etc.
+
+
+
+12.  Matias Bartellone: La Salle Florida, Vicente López, Líder del proyecto;
+Tomas Guzzo: La Salle Florida, Vicente López, programador;
+Nicolas Marchese: La Salle Florida, Vicente López, tester;
+Lucio Garcia: La Salle Florida, Vicente López;
+
+
+13. HTML, CSS, JavaScript, ReactJS, MongoDB o SQL. 
+
+
+
+14.   https://github.com/MatiBartellone/Proyecto-GenT
+
+
+
+15.   https://trello.com/invite/proyectogeneraciont/ATTI16ff4aaf90359979c71e2fbdbe600944BEBC820F   
+
+
+
+
