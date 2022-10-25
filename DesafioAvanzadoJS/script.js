@@ -11,6 +11,7 @@ const colors = [
 
 const cuadrado = document.querySelectorAll(".square");
 const colorDisplay = document.getElementById("colorDisplay");
+const message = document.getElementById("message");
 
 const pickedColor = pickColor();
 
@@ -26,20 +27,20 @@ for (let i = 0; i < cuadrado.length; i++) {
 }
 
 
-
 document.addEventListener("click", function(e){
     if(e.target.classList.contains("square")){
         const clickedColor = e.target.style.backgroundColor;
         if(clickedColor === pickedColor){
-            alert("Correcto");
+            const container = document.querySelector(".container");
+            container.innerHTML = `<h1>Correcto!</h1>`;
         }else{
-            //e.target.style.visibility = "hidden"; 
-            e.target.style.backgroundColor = "#0000ffff";
-            e.target.innerHTML = "<p>Incorrecto</p>";
-            //e.target.style.visibility = "hidden"; 
+            e.target.style.backgroundColor = "darkgreen"
+            
+            message.textContent = "Intenta de nuevo";
         }
     }
 })
+
 
 
 
