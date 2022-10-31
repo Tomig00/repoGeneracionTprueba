@@ -1,8 +1,10 @@
 import React from "react";
 import {useState} from "react";
 
-function CentigradosFahrenheit(){
-    
+function CentigradosFahrenheit(props){
+
+    const {cambiarImagen} = props
+
         const [centigrados, setCentigrados] = useState(0);
         const [fahrenheit, setFahrenheit] = useState(0);
     
@@ -13,6 +15,7 @@ function CentigradosFahrenheit(){
 
         function convertir(){
             setFahrenheit(centigrados*(9/5)+32);
+            cambiarImagen();
         }
     
         return(

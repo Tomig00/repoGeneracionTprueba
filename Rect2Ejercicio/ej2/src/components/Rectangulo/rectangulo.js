@@ -1,7 +1,10 @@
 import React from "react";
 import {useState} from "react";
 
-function Rectangulo(){
+
+function Rectangulo(props){
+
+    const {cambiarImagen} = props
 
     const [ancho, setAncho] = useState(0);
     const [altura, setAltura] = useState(0);
@@ -21,6 +24,7 @@ function Rectangulo(){
     }
     function convertir(){
         calcular();
+        cambiarImagen();
     }
 
     return(
